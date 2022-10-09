@@ -1,0 +1,30 @@
+.icon-wrapper img {
+    border:5px solid #e7e7e7;
+    width: 80%;
+}
+.col-wrapper p{
+    color:#777;
+}
+.col-wrapper{
+min-width:200px;
+}
+
+.About__main-text{
+    color:#777;
+}
+
+@media (max-width:768px){
+.col-wrapper:last-of-type{
+margin-bottom:57px;
+}
+.About__main-title{
+    text-align: center;
+}
+.About__main-text{
+    text-align: center;
+    
+}    
+}
+.chefs{
+    margin-top:-73px
+}

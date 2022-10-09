@@ -1,0 +1,51 @@
+th{
+    text-align:center
+}
+.cart__img-box {
+    width:80px;
+}
+
+.cart__img-box img{
+ width:100%;   
+}
+.cart__item-del i{
+cursor:pointer;
+}
+ 
+.addTOCart__btn{
+    border:none;
+    background-color: #df2020 ;
+    color:white;
+    padding:5px 20px;
+    border-radius:5px;
+    
+}
+.addTOCart__btn a{
+    transition: 0.3s;
+    transition-property: color;
+} 
+.addTOCart__btn a:hover{
+    color:black;
+    
+}
+.addTOCart__btn:hover{
+    color:black !important;
+}
+.cart__subtotal{
+    color:#df2020;
+    font-size:1.5rem;
+}
+.table__main-titles th{
+text-align:center;
+}
+
+@media only screen and (max-width:768px){
+    th,
+    td{
+        font-size:0.8rem;
+    }
+     .addTOCart__btn{
+        padding:5px 10px;
+        margin-bottom:17px;
+     }
+}

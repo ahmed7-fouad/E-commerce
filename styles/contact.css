@@ -1,0 +1,20 @@
+.prand__position{
+    height:700px;
+    border-radius:3px;
+    margin-bottom:17px;
+}
+.text__links span{
+    display: inline-block;
+    transform: rotate(90deg);
+    animation-name:motion;
+    animation-duration:0.7s;
+    animation-direction:alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    color:#df2022;
+}
+@keyframes motion{
+    100%{
+        transform:translatey(10px) rotate(90deg);
+    }
+}

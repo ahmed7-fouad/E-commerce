@@ -1,0 +1,24 @@
+.form{
+    background-color: #fde4e4;
+    max-width:500px;
+    padding:20px 40px;
+    margin:auto;
+}
+.form__group{
+padding:23px;
+background-color: transparent;
+}
+.form__group input{
+    outline:none;
+    border:none;
+    background-color: transparent;
+}
+.addTOCart__btn{
+    border:none;
+    background-color: #df2020 ;
+    color:white;
+    padding:5px 20px;
+    border-radius:5px;
+    margin-top:7px;
+    
+}

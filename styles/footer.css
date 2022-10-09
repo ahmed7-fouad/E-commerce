@@ -1,0 +1,126 @@
+.footer{
+    padding-top:50px;
+    padding-bottom:30px;
+    background:#fde4e4;
+}
+
+.footer .logo img{
+    width:calc(100% - 80%);
+    margin-top:-1px;
+}
+.footer__logo h5{
+    font-weight:600;
+    font-size:1rem;
+    margin-top:5px;
+    margin-bottom:9px;
+}
+.footer__logo p{
+    font-size:0.9rem;
+    color:#333;
+    line-height:27px;
+}
+.delivery__time-item{
+  background-color:transparent !important;   
+}
+.delivery__time-item span{
+font-weight:600;
+font-size:1rem;
+color:#212245;
+background:transparent;
+}
+.delivery__time-item p{
+color: #212245;
+}
+.footer__title{
+    font-size: 1.1rem;
+    color:#212245;
+    font-weight:600;
+}
+.newsletter{
+    padding:5px 7px;
+    border:1px solid #212245;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor:pointer;
+}
+.newsletter input{
+    background-color:transparent;
+    outline:none;
+    border:none;   
+}
+.newsletter span {
+    background-color: #df2020;
+    padding:5px 30px;
+    border-radius: 5px;
+    
+}
+.newsletter span i{
+    color:#fff;
+    font-weight:500;
+}
+.newsletter input:focus{
+    outline:none;
+}
+.newsletter input::placeholder {
+    color:#212245;
+}
+.social__links span i{
+ padding:5px;
+ background:#df2020;
+ color:#fff;   
+ border-radius:50%;
+}
+.copyright{
+font-size: 0.8rem;
+color:#df2020;
+}
+
+@media only screen and (max-width:992px) {
+    .newsletter input {
+            padding: 7px;
+            font-size: 0.7rem;
+        }
+        .newsletter span {
+            padding: 5px 20px;
+            font-size: 0.7rem;
+        }
+}
+@media only screen and (max-width:768px){
+    .footer__title{
+        font-size:0.8rem;
+    }
+    .delivery__time-item span{
+        font-size:0.8rem;
+    }
+    .delivery__time-item p{
+        font-size:0.7rem;
+        margin-bottom:0;
+    }
+    
+}
+@media only screen and (max-width:576px){
+    .copyright__text{
+     text-align: center;   
+    }
+    .social__links{
+        justify-content: center !important;
+    }
+    .social__links p{
+        font-size:0.8rem;
+    }
+    .social__links span{
+        padding:4px;
+    }
+    .social__links span a{
+        font-size:0.7rem;
+    }
+}
+@media only screen and (max-width:1200px) {
+    .newsletter span {
+        
+        padding: 7px 11px;
+        /* font-size: 0.7rem; */
+    }
+}

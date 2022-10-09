@@ -1,0 +1,20 @@
+.category__item{
+    background-color: #fde4e4;
+    padding:30px 20px;
+    border-radius:5px;  
+    cursor:pointer; 
+    transition:0.3s;
+}
+.category__item:hover{
+    transform:translatey(-15px);
+}
+@media only screen and (max-width:576px){
+ .category__item{
+    padding:20px 15px;
+ }   
+ .category__img img{
+    width: 40px;
+    height:40px;
+ }
+
+}
